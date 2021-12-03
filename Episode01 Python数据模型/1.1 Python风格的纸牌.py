@@ -28,7 +28,16 @@ if __name__=='__main__':
 	# print(deck[0])
 	# print(deck[-1])
 
-	from random import choice
-	print(choice(deck))
-	print(choice(deck))
-	print(choice(deck))
+	# from random import choice
+	# print(choice(deck))
+	# print(choice(deck))
+	# print(choice(deck))
+
+	# print(deck[:3])
+	# print(deck[12::13])
+
+	# 迭代操作
+	for card in deck:
+		print(card)
+	for card in reversed(deck):
+		print(card)
